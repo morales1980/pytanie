@@ -1,0 +1,21 @@
+.panel-body {
+  margin: 0 auto;
+}
+@media (min-width:768px) {
+  .panel-body {
+    width: 55%;
+  }
+}
+@media (min-width:992px) {
+  .panel-body {
+    width: 45%;
+  }
+}
+@media (min-width:1200px) {
+  .panel-body {
+    width: 35%;
+  }
+}
+p {
+  display: flex;
+}
